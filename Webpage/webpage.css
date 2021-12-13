@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background-color: rgb(60 58 44);
+    width: 100%;
+    margin: 0px auto 0px auto;
+    position: relative;
+    color: white;
+}
+.banner{
+    background-image: url("../HTML/Profile pic.jpeg");
+    /*background-repeat: no-repeat;*/
+    background-attachment: scroll;
+    background-position: 35% 13%;
+    height: 55%;
+    width: 100%;
+}
+.contentalign{
+    padding: 6% 3%;
+}
+.name,.quote{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    line-height: 50px;
+}
+.name{
+    font-size: 3em;
+    margin: 0px;
+}
+.quote {
+    margin: 10px 0px;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: black;
+ }
+.top {
+    display: inline-block;
+    padding: 30px 0px;
+    margin: 0px 15px;   
+    width: 80%;    
+    
+}
+.top a{
+    color: hsl(0, 0%, 0%);
+    
+}
+.top:hover{
+    background-color: rgb(167, 172, 166);
+    
+}
+
+.top{
+    text-align: center;
+    
+}
+.tab {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 1% 0%;
+    background-color: #dddcda;
+    width: 97%;             
+    display: inline-flex;
+    height: 75px;
+}
+.mainpage, .content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 10px;
+    text-align: justify;
+}
+#footer {
+    color: rgb(10, 10, 10);
+    background-color: #dddcda;
+    text-align: center;
+    height: 84px;
+}
+.footericons {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+ul#horizontalmedia {
+	min-width: 696px;
+	list-style: none;
+	margin-right: 15px;
+    padding: 0px 15px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+ul#horizontalmedia li {
+		display: inline-flex;
+        padding: 0px 10px;
+	}
+#footer img{
+    width: 20px;
+    height: 20px
+}
+table {
+    border-spacing: 4px;
+    margin-right: auto;
+    width: fit-content;
+    align-items: center;
+    align-content: center;
+    
+}
+th,td{
+    padding: 5px;
+    text-align: center;
+}
+.tablehead{
+    background-color: rgb(247, 245, 241);
+    text-transform: uppercase;
+    color: black;
+}
+fieldset{
+    border-radius: 15px;
+    padding-left: 10px;
+}
+legend{
+    color: hsl(0, 0%, 0%);
+    background-color: honeydew;
+    border-radius: 5px;
+}
+.form input{
+    height: 30px;
+    
+}
+textarea,select,input{
+    width: 25%;
+}
+.formbutton{
+    width: 100px;
+    height: 35px;
+}
+.websitelink{
+    color: rgb(167, 172, 166);
+}
